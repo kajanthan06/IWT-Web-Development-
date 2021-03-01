@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Category</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles/category.css">
+	<!-- for Icons---Online link -->
+	               <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	               <!-- social media icon link -->
+	               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<script src = "js/javascript.js"></script>
+
+</head>
+
+<body>
+	<!--header-->
+  <header class="mainhead" >
+      <div class= "head">
+      <a href="Project\sarangan\Cover_Page\index.html">  <img class="logo" src="images/logo(1).png" align="left"></a>
+        <p> PIXELS GALLERY</p>
+      </div>
+
+			<?php
+
+				session_start();
+				echo "<p class='name'><a href ='Project/harish/edit profile page/editprofile.html' > ".$_SESSION['logged_user']."</a></p>";
+
+			?>
+
+		<div class="button">
+			<button class="social kusu" > Log Out </button>
+		</div>
+			<img class="pic" src="images/profile.png" align="right">
+
+
+</header>
+
+<!--navigation bar-->
+<div class="topnav">
+  <a href="category.html" class="active" ><i class="fa fa-home"></i>Home</a>
+  <a href="Project\Sathira\About us page\About us.html"><i class="fa fa-globe"></i>  About Us</a>
+
+  <a href="Project\Sathira\Contact us\contact us.html"><i class="fa fa-phone"></i>  Contact Us</a>
+  <a  href="Project\sarangan\Photographer_Function_Page\Clicker_Prof.html"><i class="fa fa-camera"></i> Photographer</a>
+  <input id="searching" type="text" placeholder="Search..">
+</div>
+<br>
+<br>
+
+<!-- beginning of cards -->
+
+<div class = "marg">
+	<!-- card 1 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img src = "images/pic8.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1 > Nature </h1>
+			</div>
+
+			<div class = "des">
+				<p > View More Nature Photography</p>
+				<button  ><a href = "nature.html"> More </a></button>
+			</div>
+
+		</div>
+
+
+	<!-- card 2 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img  src = "images/f8.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1 >Fashion</h1>
+			</div>
+
+			<div class = "des">
+				<p > View More Fashion Photography</p>
+				<button ><a href = "fashion.html"> More </a></button>
+			</div>
+
+		</div>
+
+		<!-- card 3 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img  src = "images/ar2.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1  >Architectural </h1>
+			</div>
+
+			<div class = "des">
+				<p > View More Architectural Photography</p>
+				<button ><a href = "architectural.html"> More </a></button>
+			</div>
+
+		</div>
+
+
+		<!-- card 4 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img src = "images/sp3.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1>Sports</h1>
+			</div>
+
+			<div class = "des">
+				<p>View More Sports Photography</p>
+				<button ><a href = "sports.html"> More </a></button>
+			</div>
+
+		</div>
+
+		<!-- card 5 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img src = "images/fo1.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1>Food</h1>
+			</div>
+
+			<div class = "des">
+				<p> View More Food Photography </p>
+				<button ><a href = "food.html"> More </a></button>
+			</div>
+
+		</div>
+
+
+	<!-- card 6 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img src = "images/f13.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1>Portrait</h1>
+			</div>
+
+			<div class = "des">
+				<p> View More Portrait Photography </p>
+				<button ><a href = "portrait.html"> More </a> </button>
+			</div>
+
+		</div>
+
+		<!-- card 7 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img src = "images/we7.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1>Wedding</h1>
+			</div>
+
+			<div class = "des">
+				<p> View More Wedding Photography</p>
+				<button > <a href = "wedding.html"> More </a></button>
+			</div>
+
+		</div>
+
+
+		<!-- card 8 -->
+		<div class = "cards">
+
+			<div class = "image" >
+				<img src = "images/astro2.jpg" alt = "" >
+			</div>
+
+			<div class = "title">
+				<h1>Astronomy</h1>
+			</div>
+
+			<div class = "des">
+				<p> View More Astronomy Photography </p>
+				<button ><a href = "astronomy.html"> More </a></button>
+			</div>
+
+		</div>
+</div>
+<!-- end of cards -->
+
+
+
+
+
+
+
+
+<!--footer-->
+    <footer class="foot">
+      	<p>@group3.1_07  |  Privacy policy  |  Terms and Conditions  |  Terms of use  </p>
+      	<div class="row">
+            <a  href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a  href="www.google.com"><i class="fa fa-google"></i></a>
+            <a  href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+    		    <a  href="www.twitter.com"><i class="fa fa-instagram"></i></a>
+
+    	  </div>
+    </footer>
+
+
+
+
+
+
+
+<br>
+<br>
+</body>
+</html>

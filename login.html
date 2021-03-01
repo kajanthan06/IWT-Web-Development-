@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<title>Log In</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles/login.css">
+
+
+	<!-- for Icons-Online link -->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<!-- social media icon link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+<body bgcolor = "grey">
+	<!--header-->
+	<header class="mainhead" >
+			<div class= "head">
+				<a href="Project/sarangan/Cover_Page/index.html"> <img class="logo" src="images/logo(1).png" align="left"></a>
+				<p> PIXELS GALLERY</p>
+			</div>
+
+
+
+
+
+	</header>
+
+	<!--navigation bar-->
+	<div class="topnav">
+	  <a class="active" href="login.html"><i class="fa fa-home"></i>Home</a>
+	  <a href="login.html"><i class="fa fa-globe"></i>  About Us</a>
+	  <a href="login.html"><i class="fa fa-book"></i>  Category</a>
+	  <a href="login.html"><i class="fa fa-phone"></i>  Contact Us</a>
+	  <a href="login.html"><i class="fa fa-camera"></i> Photographer</a>
+	  <input id="searching" type="text" placeholder="Search..">
+	</div>
+	<br>
+	<br>
+
+	<!--login codes-->
+
+	<div class = "loginbox">
+		<img class = "image" src = "images/profile.png" alt = "profile" >
+		<h1>Log In</h1>
+			<form name = "login" onsubmit = "return validation()">
+				<p>User Name</p>
+				<input type="text"  name="uname" value="" placeholder="Enter User Name">
+				<p>Password</p>
+				<input type="Password" name="pwd" value="" placeholder="Enter Password"  >
+				<input type="submit" name="btn" value="Log In">
+				Don't have an account? <a href = "signup.html" >Sign Up</a>
+			</form>
+	</div>
+
+
+	<!--footer-->
+	    <footer class="foot">
+	      	<p>@group3.1_07  |  Privacy policy  |  Terms and Conditions  |  Terms of use  </p>
+	      	<div class="row">
+	            <a  href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+	            <a  href="www.google.com"><i class="fa fa-google"></i></a>
+	            <a  href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+	    		    <a  href="www.twitter.com"><i class="fa fa-instagram"></i></a>
+
+	    	  </div>
+	    </footer>
+<!--script part-->
+<script type="text/javascript">
+function validation()
+{
+  var uname = document.login.uname.value;
+  var pwd = document.login.pwd.value;
+
+  //check empty field
+  if ( uname == "" || pwd == "")
+  {
+    alert("Both fields should not be blank");
+    return;
+  }
+	//check size of Password
+	if ( pwd.length < 6 || pwd.length > 20)
+	{
+		alert("Password must be 6 to 20 characters");
+		return;
+	}
+	//SIZE OF NAME VALIDATION
+	if ( uname.length < 2 || uname.length > 20 )
+	{
+		alert("Your name should be between 2 to 20 characters");
+		return;
+	}
+
+}
+</script>
+
+</body>
+</html>
