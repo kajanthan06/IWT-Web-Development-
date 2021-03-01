@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+/* Styling for ###BODY### part */
+body
+{
+  background-image: url("img/004.jpg");
+  background-size: cover;
+  background-blend-mode:hue;
+}
+
+/* Start of header  */
+header{
+	display: inline-flex;
+		width:100%;
+		background-color:rgba(0,0,0,0.7);
+    left: 0;
+    bottom: 0;
+
+}
+.head p{
+	color:white;
+  font-weight: bold;
+	/* text-align:center; */
+	font-weight:250;
+	font-size:26px;
+	margin-top: 20px;
+  margin-left: 160px!important;
+
+}
+.head{
+	box-sizing:border-box;
+	height:70px;
+		width:100%;
+    margin-left: 15px;
+
+}
+
+img
+{
+	width : 70px;
+  height: 70px;
+
+}
+.button{
+	float:right;
+	display: inline-flex;
+    width: 30%;
+   border-radius:15px;
+   height:10%;
+   margin-top:15px;
+margin-right:15px;
+}
+.kusu{
+	margin-right:10px;
+}
+.social
+
+{
+	background:rgba(251,37,37, 01);
+	box-sizing:border-box;
+	font-family:sans-serif;
+	border:1px solid black;
+	border-radius:5px;
+	width:100%;
+	font-size: 15px;
+	padding: 10px;
+  color: white;
+}
+.social:hover
+{
+	background:rgba(251,37,37, 01);
+	transition: 0.2s;
+  color: black;
+}
+
+/* end of header  */
+
+
+
+p
+{
+  text-align: center;
+}
+.starter
+{
+  background-color: rgba(255,255,255,0.2);
+  height: 100%;
+  width: 100%;
+  border: 5px solid white;
+  border-radius: 25px;
+  border-style: double;
+}
+.Journey
+{
+  position:absolute;
+  top:45%;
+  left:33%;
+  border-radius: 25px;
+  /* padding: 10px; */
+  width: 25%;
+  font-family:  sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(0,0,0, 0.9);
+  border: 2px solid white;
+  padding: 15px;
+  color:white;
+
+  /* transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%) */
+}
+.Journey:hover
+{
+  /* background-color:rgba(251,37,37, 1); */
+  color:white;
+  transition: 0.5s;
+  box-shadow:8px 8px 8px  white;
+}
+
+/* start of footer  */
+.foot{
+        background-color:rgba(0,0,0,0.7);
+        color: white;
+		width:100%;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+    height: 25px;
+    padding-top: 5px;
+
+
+}
+.foot p{
+right:5px;
+font-family:sans-serif;
+text-align:left;
+}
+.row{
+	float:right;
+	margin-top:-20px;
+	margin-right:35px;
+
+}
+/* end of footer  */
+
+.fa
+{
+  border-radius: 5px;
+  /* border: 1px solid white; */
+  padding: 3px;
+  width: 15px;
+  font-size: 15PX;
+}
+.fa:hover
+{
+  background-color: rgba(251,37,37, 0.4);
+  transition: 1s;
+}
+.fa-facebook
+{
+  color:blue;
+}
+.fa-google
+{
+  color:red;
+}
+.fa-twitter
+{
+  color:skyblue;
+}
+.fa-instagram
+{
+  color:PINK;
+}
